@@ -2,6 +2,7 @@ import React from "react";
 
 const FeaturedJob = ({ item }) => {
 	const {
+        id,
 		logo,
 		job_title,
 		company_name,
@@ -36,7 +37,8 @@ const FeaturedJob = ({ item }) => {
 					</div>
 
 					<div className="card-actions ">
-						<button className="btn btn-primary">Buy Now</button>
+						<button className="btn btn-primary">See discription</button>
+                        {/* <NavLink to="/AppliedJobs">Applied Jobs</NavLink> */}
 					</div>
 				</div>
 			</div>
